@@ -11,41 +11,24 @@
 
 • If the person is age 65 or older, print a message that the person is an elder.*/
 
-let Age ='1';
+// Set the age
 
-if( Age < '2'){
-    console.log('The person is a baby')
-};
+const age: number = 25; // You can change this value to test different age groups
 
-Age ='3';
-if(Age >= '2' && Age < '4') {
-    console.log('The person is a toddler')
-
-};
-
-Age ='8';
-if (Age >= '4'  && Age < '13'){
-    console.log('The person is a kid')
-};
-
-
-Age ='18';
-if (Age >= '13' && Age < '20'){
-    console.log(`The person is a teenageer`)
-};
-
-
-Age = '50';
-if (Age >= '20' && Age <'65'){
-    console.log(`The person is an adult`)
+// Determine the stage of life
+if (age < 2) {
+  console.log("The person is a baby.");
+} else if (age >= 2 && age < 4) {
+  console.log("The person is a toddler.");
+} else if (age >= 4 && age < 13) {
+  console.log("The person is a kid.");
+} else if (age >= 13 && age < 20) {
+  console.log("The person is a teenager.");
+} else if (age >= 20 && age < 65) {
+  console.log("The person is an adult.");
+} else {
+  console.log("The person is an elder.");
 }
-
-Age = '75';
-if(Age > '65'){
-    console.log(`The person is an elder`)
-};
-
-
 
 
 
