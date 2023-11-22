@@ -10,4 +10,5 @@ function make_shirt(){
     console.log(`The size of the shirt is '${shirtsize}' and the message printed on it is '${message}'`)
 };
 
-make_shirt();// calling function
+// calling function
+make_shirt();
